@@ -76,91 +76,67 @@ function rgb2hex(rgb) {
 $(function() {
         var bookmark = {
             data: [{
-                name: '开发日志',
-                link: 'https://kksan.top/f5404b68deeb4634b39dac0bc67ec693',
-                box_shadow: '#F18033',
-                icon: 'img/log.png',
-            }, {
-                name: '酷安',
-                link: 'https://www.coolapk.com',
-                box_shadow: '#11B063',
-                icon: 'img/coolapk.png',
-            }, {
-                name: 'Via插件',
-                link: 'http://via-app.cn',
-                box_shadow: '#FA7199',
-                icon: 'img/via.png',
-            }, {
                 name: '今日热榜',
                 link: 'https://tophub.today/',
                 box_shadow: '#F2584A',
                 icon: 'img/headline.png',
             }, {
-                name: '知乎',
-                link: 'https://www.zhihu.com/',
-                box_shadow: '#0078D8',
-                icon: 'img/zhihulogo.png',
-            }, {
+				name:'微博',
+				link:'https://weibo.com/',
+				box_shadow:'#f26c4b',
+				icon:'img/weibo.png',
+				
+			},{
                 name: '小米商城',
                 link: 'https://m.mi.com/',
                 box_shadow: '#F57923',
                 icon: 'img/mi.png',
             }, {
-                name: 'unsplash',
-                link: 'https://unsplash.com/',
-                box_shadow: '#2C2C2C',
-                icon: 'img/unsplash.png',
-            }, {
-                name: '豆瓣',
-                link: 'https://m.douban.com/',
-                box_shadow: '#37bf4c',
-                icon: 'img/douban.png',
-            }, {
-                name: '虎扑',
-                link: 'https://www.hupu.com/',
-                box_shadow: '#c01d2f',
-                icon: 'img/hupu.png',
-            }, {
                 name: '斗鱼',
                 link: 'https://www.douyu.com/',
                 box_shadow: '#fe7700',
                 icon: 'img/douyu.png',
-            }, {
-                name: 'CSDN',
-                link: 'https://www.csdn.net/',
-                box_shadow: '#c5000a',
-                icon: 'img/csdn.png',
-            }, {
-                name: 'XDA',
-                link: 'https://www.xda-developers.com/',
-                box_shadow: '#AC6E2F',
-                icon: 'img/xda.png',
-            }, {
+            },{
                 name: '少数派',
                 link: 'https://sspai.com/',
                 box_shadow: '#D7191A',
                 icon: 'img/sspai.png',
-            }, {
-                name: '小众软件',
-                link: 'https://www.appinn.com/',
-                box_shadow: '#3279ea',
-                icon: 'img/xiaozhong.png',
-            }, {
-                name: '数字尾巴',
-                link: 'https://www.dgtle.com/',
-                box_shadow: '#62677b',
-                icon: 'img/shuziweiba.png',
-            }, {
-                name: '疫情跟踪',
-                link: 'https://app.21jingji.com/html/2020yiqing/',
-                box_shadow: '#7C5DC7',
-                icon: 'img/ding.png',
-            }, {
-                name: '疫情辟谣',
-                link: 'https://vp.fact.qq.com/home',
-                box_shadow: '#00A0E9',
-                icon: 'img/true.png',
-            }]
+            },{
+				name:'虎牙',
+				link:'https://www.huya.com',
+				box_shadow:'#ea8825',
+				icon:'img/huya.png'
+			},{
+				name:'哔哩哔哩',
+				link:'https://www.bilibili.com',
+				box_shadow:'#ff8a53',
+				icon:'img/bilibili-xs.png'	
+			},{
+				name:'YouTube',
+				link:'https://www.youtube.com',
+				box_shadow:'#f26f54',
+				icon:'img/youtube.png',
+			},{
+				name:'抖音',
+				link:'https://www.douyin.com/',
+				box_shadow:'#f2896f',
+				icon:'img/douyin.png',
+			},{
+				name:'京东',
+				link:'https://www.jd.com',
+				box_shadow:'#f28965',
+				icon:'img/jd.png',
+			},{
+				name:'淘宝',
+				link:'https://www.taobao.com',
+				box_shadow:'#f26e6e',
+				icon:'img/tb.png',
+			},{
+				name:'什么值得买',
+				link:'https://www.smzdm.com/',
+				box_shadow:'#f28965',
+				icon:'img/smzdm.png',
+			}]
         }
         for (var i = 0; i < bookmark.data.length; i++) {
             if (bookmark.data[i].name == 'Via插件') {
@@ -197,14 +173,7 @@ $(function() {
             searchname: 'q',
             color: '#00868B',
             placeholder: 'Bing搜索...'
-        }, {
-            name: 'yahoo',
-            icon: 'img/yahoo-xs.png',
-            searchlink: 'https://search.yahoo.com/search',
-            searchname: 'p',
-            color: '#5f01d1',
-            placeholder: 'Yahoo~'
-        }, {
+        },  {
             name: 'magi',
             icon: 'img/magi-xs.png',
             searchlink: 'https://magi.com/search',
@@ -226,13 +195,6 @@ $(function() {
             color: '#2ca43a',
             placeholder: '搜微信文章...'
         }, {
-            name: 'quark',
-            icon: 'img/quark-xs.png',
-            searchlink: 'https://quark.sm.cn/s',
-            searchname: 'q',
-            color: '#6182f6',
-            placeholder: '夸克搜索...'
-        }, {
             name: 'taobao',
             icon: 'img/taobao-xs.png',
             searchlink: 'https://s.taobao.com/search',
@@ -246,20 +208,6 @@ $(function() {
             searchname: 'keyword',
             color: '#F30213',
             placeholder: '多，快，好，省...'
-        }, {
-            name: 'bilibili',
-            icon: 'img/bilibili-xs.png',
-            searchlink: 'https://search.bilibili.com/all',
-            searchname: 'keyword',
-            color: '#e47494',
-            placeholder: 'b站是一个学习网站...'
-        }, {
-            name: 'github',
-            icon: 'img/github-xs.png',
-            searchlink: 'https://github.com/search',
-            searchname: 'q',
-            color: '#24292e',
-            placeholder: '全球最大的开源社区...'
         }, {
             name: 'toutiao',
             icon: 'img/toutiao-xs.png',
