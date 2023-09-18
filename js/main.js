@@ -76,10 +76,10 @@ function rgb2hex(rgb) {
 $(function() {
         var bookmark = {
             data: [{
-                name: '今日热榜',
-                link: 'https://tophub.today/',
+                name: '通义千问',
+                link: 'https://qianwen.aliyun.com',
                 box_shadow: '#F2584A',
-                icon: 'img/headline.png',
+                icon: 'img/tongyiqianwen.png',
             }, {
 				name:'微博',
 				link:'https://weibo.com/',
