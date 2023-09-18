@@ -79,7 +79,7 @@ $(function() {
                 name: '通义千问',
                 link: 'https://qianwen.aliyun.com',
                 box_shadow: '#F2584A',
-                icon: 'img/tongyiqianwen.jpeg',
+                icon: 'img/tongyiqianwen.png',
             }, {
 				name:'微博',
 				link:'https://weibo.com/',
