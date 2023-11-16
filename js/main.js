@@ -97,10 +97,10 @@ $(function() {
                 box_shadow: '#fe7700',
                 icon: 'img/douyu.png',
             },{
-                name: '少数派',
-                link: 'https://sspai.com/',
+                name: 'OpenAI',
+                link: 'https://openai.com',
                 box_shadow: '#D7191A',
-                icon: 'img/sspai.png',
+                icon: 'img/openai.png',
             },{
 				name:'虎牙',
 				link:'https://www.huya.com',
