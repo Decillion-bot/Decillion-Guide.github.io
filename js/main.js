@@ -1,16 +1,3 @@
-/*
-
- * 开源相关：
- * Github：https://github.com/Jackie1123/aNavigation
- * CSSFX：https://cssfx.netlify.com
- * jQuery：https://jquery.com
- * slideout：https://slideout.js.org
- * bootstrap：https://getbootstrap.com
- * font-awesome：https://fontawesome.com
- *
- * 版权所有，请勿删除！
- */
-
 var storage = window.localStorage;
 var data = storage.data;
 var night = storage.night;
@@ -86,10 +73,10 @@ $(function() {
                 box_shadow: '#F57923',
                 icon: 'img/mi.png',
             }, {
-                name: 'ChatGPT'
-                link: 'https://chat.frankdecillion.top/',
+                name: '斗鱼',
+                link: 'https://www.douyu.com/',
                 box_shadow: '#fe7700',
-                icon: 'img/openai.png',
+                icon: 'img/douyu.png',
             },{
                 name: 'OpenAI',
                 link: 'https://openai.com',
@@ -430,22 +417,3 @@ class searchHint {
     }
 }
 const jsonp = new searchHint();
-
-/*
- * ALL RIGHTS RESERVED.
- *
- * 作者：酷安@_小K同學
- * 项目开始日期：2020年01月26日
- * 上次修改时间：2022年02月25日
- * 开发日志：https://kksan.top/f5404b68deeb4634b39dac0bc67ec693
- *
- * 开源相关：
- * Github：https://github.com/Jackie1123/aNavigation
- * CSSFX：https://cssfx.netlify.com
- * jQuery：https://jquery.com
- * slideout：https://slideout.js.org
- * bootstrap：https://getbootstrap.com
- * font-awesome：https://fontawesome.com
- *
- * 版权所有，请勿删除！
- */
