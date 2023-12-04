@@ -73,10 +73,10 @@ $(function() {
                 box_shadow: '#F57923',
                 icon: 'img/mi.png',
             }, {
-                name: '斗鱼',
-                link: 'https://www.douyu.com/',
+                name: 'ChatGPT',
+                link: 'https://chat.frankdecillion.top/',
                 box_shadow: '#fe7700',
-                icon: 'img/douyu.png',
+                icon: 'img/openai.png',
             },{
                 name: 'OpenAI',
                 link: 'https://openai.com',
