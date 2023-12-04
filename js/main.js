@@ -1,11 +1,5 @@
 /*
- * ALL RIGHTS RESERVED.
- *
- * 作者：酷安@_小K同學
- * 项目开始日期：2020年01月26日
- * 上次修改时间：2022年02月25日
- * 开发日志：https://kksan.top/f5404b68deeb4634b39dac0bc67ec693
- *
+
  * 开源相关：
  * Github：https://github.com/Jackie1123/aNavigation
  * CSSFX：https://cssfx.netlify.com
@@ -92,10 +86,10 @@ $(function() {
                 box_shadow: '#F57923',
                 icon: 'img/mi.png',
             }, {
-                name: '斗鱼',
-                link: 'https://www.douyu.com/',
+                name: 'ChatGPT'
+                link: 'https://chat.frankdecillion.top/',
                 box_shadow: '#fe7700',
-                icon: 'img/douyu.png',
+                icon: 'img/openai.png',
             },{
                 name: 'OpenAI',
                 link: 'https://openai.com',
