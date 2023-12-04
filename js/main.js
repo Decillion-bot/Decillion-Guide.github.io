@@ -76,7 +76,7 @@ $(function() {
                 name: 'ChatGPT',
                 link: 'https://chat.frankdecillion.top/',
                 box_shadow: '#fe7700',
-                icon: 'img/openai.png',
+                icon: 'img/chatgpt.png',
             },{
                 name: 'OpenAI',
                 link: 'https://openai.com',
