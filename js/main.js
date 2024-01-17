@@ -74,7 +74,7 @@ $(function() {
                 icon: 'img/mi.png',
             }, {
                 name: 'ChatGPT',
-                link: 'https://ai.frankdecillion.top/',
+                link: 'https://ai.6260701.xyz/',
                 box_shadow: '#fe7700',
                 icon: 'img/chatgpt.png',
             },{
