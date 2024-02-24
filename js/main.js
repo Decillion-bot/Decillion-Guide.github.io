@@ -83,10 +83,10 @@ $(function() {
                 box_shadow: '#D7191A',
                 icon: 'img/openai.png',
             },{
-				name:'虎牙',
-				link:'https://www.huya.com',
+				name:'Gemini',
+				link:'https://gemini.google.com/',
 				box_shadow:'#ea8825',
-				icon:'img/huya.png'
+				icon:'img/Gemini.png'
 			},{
 				name:'哔哩哔哩',
 				link:'https://www.bilibili.com',
